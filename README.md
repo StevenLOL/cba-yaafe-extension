@@ -21,7 +21,20 @@ For a list of the new features and a description see: *[FEATURES.md](https://git
 
 ## Installation
 
-Before installing this extension, you have to install [YAAFE](http://yaafe.sourceforge.net)!
+Before installing this extension, you have to install [YAAFE](http://yaafe.sourceforge.net/manual/install.html)!
+
+Before install YAAFE, you have to install [argtable](http://argtable.sourceforge.net/)!
+
+After install YAAFE,please make sure set 
+
+YAAFE_PATH=...path to your .../yaafe_extensions
+
+This is also the path where cba extension should put to.
+
+Type yaafe.py -l will list available feature extration methods
+
+
+
 
 * Download the package and unzip
 * <code>mkdir build</code>
